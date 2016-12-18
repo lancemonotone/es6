@@ -16,41 +16,16 @@ button {
   button.active {
     background-color: #a5e39e; }
 
-#peopleModule {
-  text-align: center; }
-  #peopleModule ul {
-    padding: 0; }
-  #peopleModule li {
-    display: inline-block;
-    list-style-type: none;
-    background: #98ec9b;
-    border-radius: 5px;
-    padding: 3px 8px;
-    margin: 5px 0;
-    width: 200px;
-    opacity: 0.8;
-    transition: opacity 0.3s; }
-    #peopleModule li:hover {
-      opacity: 1; }
-    #peopleModule li span {
-      display: inline-block;
-      width: 160px;
-      overflow: hidden;
-      text-overflow: ellipsis; }
-    #peopleModule li i {
-      cursor: pointer;
-      font-weight: bold;
-      float: right;
-      font-style: normal;
-      background: #666;
-      padding: 2px 4px;
-      font-size: 60%;
-      color: white;
-      border-radius: 20px;
-      opacity: 0.7;
-      transition: opacity 0.3s;
-      margin-top: 3px; }
-      #peopleModule li i:hover {
-        opacity: 1; }
+#container {
+  display: flex;
+  flex-direction: row; }
+
+.cat {
+  text-align: center;
+  cursor: pointer;
+  margin: 5px;
+  height: 236px;
+  width: 236px;
+  background-color: black; }
 
 /*# sourceMappingURL=style.css.map */
